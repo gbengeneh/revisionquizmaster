@@ -1,0 +1,4 @@
+- [x] Modify questions.js to export the questions array as default export
+- [x] Modify script.js to import questions from questions.js and remove the hardcoded questions array
+- [x] Update index.html to use ES6 modules by adding type="module" to the script tag
+- [ ] Test the quiz application to ensure it loads and functions with the new questions
