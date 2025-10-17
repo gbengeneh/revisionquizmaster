@@ -15,6 +15,46 @@ body{
     border-radius: 10px ;
     padding: 30px;
 }
+#welcome-screen {
+    text-align: center;
+}
+#welcome-screen h1 {
+    color: #001e4d;
+    margin-bottom: 20px;
+}
+#welcome-screen p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+#welcome-screen ul {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+#welcome-screen li {
+    margin: 5px 0;
+}
+#welcome-screen label {
+    display: block;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+#welcome-screen input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#start-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .app h1{
     font-size: 25px;
     color: #001e4d;
@@ -61,6 +101,46 @@ body{
     border-radius: 4px;
     cursor: pointer;
     display: none;
+}
+#submit-btn{
+    background: #ff6b6b;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+#history-btn{
+    background: #17a2b8;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+.quiz h3 {
+    color: #001e4d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.quiz ul {
+    list-style-type: none;
+    padding: 0;
+}
+.quiz li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #001e4d;
 }
 .correct{
     background: #9aeabc;

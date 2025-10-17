@@ -1,4 +1,7 @@
 - [x] Modify questions.js to export the questions array as default export
 - [x] Modify script.js to import questions from questions.js and remove the hardcoded questions array
 - [x] Update index.html to use ES6 modules by adding type="module" to the script tag
-- [ ] Test the quiz application to ensure it loads and functions with the new questions
+- [x] Add a "Submit" button to allow early quiz submission after 10 questions with confirmation dialog, showing attempted and unattempted questions
+- [x] Add result history feature with name prompt before quiz, localStorage storage, and "View History" button
+- [x] Create a welcome screen with instructions, name input, and start button
+- [ ] Test the quiz application to ensure it loads and functions with all new features
